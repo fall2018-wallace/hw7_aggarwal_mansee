@@ -13,3 +13,8 @@ map_murderColor<-ggplot(df_final,aes(map_id=stateName)) +
   
 map_population<-map_murderColor +
   geom_point(data=df_final,aes(x=long,y=lat,size=population))
+  
+  map.murdercolor +
+  geom_point(data=df_final,aes(x=long,y=lat,size=population))+
+  xlim(long_nyc-10,long_nyc+10)+
+  ylim(lat_nyc-10,lat_nyc+10)
