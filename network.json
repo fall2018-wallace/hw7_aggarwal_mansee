@@ -6,13 +6,13 @@
     "edges": [],
     "nodes": [
         {
-            "name": "raw_data.csv"
+            "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
             "desc": "",
             "name": "clean.R"
         }
     ],
-    "updated_at": "2018-10-17 21:19:46",
+    "updated_at": "2018-10-17 21:21:19",
     "url": "https://github.com/fall2018-wallace/hw7_aggarwal_mansee"
 }
