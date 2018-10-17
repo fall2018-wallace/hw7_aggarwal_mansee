@@ -60,10 +60,16 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "mansee1",
             "desc": "",
-            "name": "us_map.R"
+            "name": "us_map.R",
+            "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "map_plots.R"
         }
     ],
-    "updated_at": "2018-10-17 22:57:25",
+    "updated_at": "2018-10-17 23:43:08",
     "url": "https://github.com/fall2018-wallace/hw7_aggarwal_mansee"
 }
