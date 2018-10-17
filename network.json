@@ -20,10 +20,16 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
+            "assigned_to": "mansee1",
             "desc": "",
-            "name": "clean.R"
+            "name": "clean.R",
+            "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "merge.R"
         }
     ],
-    "updated_at": "2018-10-17 21:22:54",
+    "updated_at": "2018-10-17 21:24:18",
     "url": "https://github.com/fall2018-wallace/hw7_aggarwal_mansee"
 }
