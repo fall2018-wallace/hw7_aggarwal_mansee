@@ -13,6 +13,17 @@
             ],
             "source": "scprc_est_2017_18_pop_res.csv",
             "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "census",
+                    "output": "cleanCensus",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "merge.R"
         }
     ],
     "nodes": [
@@ -30,6 +41,6 @@
             "name": "merge.R"
         }
     ],
-    "updated_at": "2018-10-17 21:24:18",
+    "updated_at": "2018-10-17 21:25:45",
     "url": "https://github.com/fall2018-wallace/hw7_aggarwal_mansee"
 }
