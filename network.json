@@ -7,8 +7,12 @@
     "nodes": [
         {
             "name": "raw_data.csv"
+        },
+        {
+            "desc": "",
+            "name": "clean.R"
         }
     ],
-    "updated_at": "2018-10-17 21:18:23",
+    "updated_at": "2018-10-17 21:19:46",
     "url": "https://github.com/fall2018-wallace/hw7_aggarwal_mansee"
 }
