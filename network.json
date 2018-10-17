@@ -57,6 +57,16 @@
             ],
             "source": "us_map.R",
             "target": "map_plots.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "Area",
+                    "type": "png"
+                }
+            ],
+            "source": "map_plots.R",
+            "target": "map_areaColor.png"
         }
     ],
     "nodes": [
@@ -97,6 +107,6 @@
             "name": "map_areaColor.png"
         }
     ],
-    "updated_at": "2018-10-17 23:46:16",
+    "updated_at": "2018-10-17 23:46:47",
     "url": "https://github.com/fall2018-wallace/hw7_aggarwal_mansee"
 }
