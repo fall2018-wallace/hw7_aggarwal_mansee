@@ -67,6 +67,16 @@
             ],
             "source": "map_plots.R",
             "target": "map_areaColor.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map_murderColor",
+                    "type": "png"
+                }
+            ],
+            "source": "map_plots.R",
+            "target": "map_murderColor.png"
         }
     ],
     "nodes": [
@@ -110,6 +120,6 @@
             "name": "map_murderColor.png"
         }
     ],
-    "updated_at": "2018-10-17 23:51:46",
+    "updated_at": "2018-10-17 23:52:00",
     "url": "https://github.com/fall2018-wallace/hw7_aggarwal_mansee"
 }
