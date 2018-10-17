@@ -46,6 +46,17 @@
             ],
             "source": "add_area_center.R",
             "target": "map_plots.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "us",
+                    "output": "us",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "us_map.R",
+            "target": "map_plots.R"
         }
     ],
     "nodes": [
@@ -81,6 +92,6 @@
             "name": "map_plots.R"
         }
     ],
-    "updated_at": "2018-10-17 23:43:39",
+    "updated_at": "2018-10-17 23:43:52",
     "url": "https://github.com/fall2018-wallace/hw7_aggarwal_mansee"
 }
