@@ -61,7 +61,7 @@
         {
             "ports": [
                 {
-                    "output": "Area",
+                    "output": "map_areaColor",
                     "type": "png"
                 }
             ],
@@ -107,6 +107,6 @@
             "name": "map_areaColor.png"
         }
     ],
-    "updated_at": "2018-10-17 23:46:47",
+    "updated_at": "2018-10-17 23:48:59",
     "url": "https://github.com/fall2018-wallace/hw7_aggarwal_mansee"
 }
