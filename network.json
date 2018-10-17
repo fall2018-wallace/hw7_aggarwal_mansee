@@ -24,6 +24,17 @@
             ],
             "source": "clean.R",
             "target": "merge.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df_final",
+                    "output": "df_merge",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "merge.R",
+            "target": "add_area_center.R"
         }
     ],
     "nodes": [
@@ -47,6 +58,6 @@
             "name": "add_area_center.R"
         }
     ],
-    "updated_at": "2018-10-17 22:35:04",
+    "updated_at": "2018-10-17 22:36:10",
     "url": "https://github.com/fall2018-wallace/hw7_aggarwal_mansee"
 }
