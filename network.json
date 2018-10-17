@@ -37,10 +37,16 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "mansee1",
             "desc": "",
-            "name": "merge.R"
+            "name": "merge.R",
+            "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "add_area_center.R"
         }
     ],
-    "updated_at": "2018-10-17 21:25:45",
+    "updated_at": "2018-10-17 22:35:04",
     "url": "https://github.com/fall2018-wallace/hw7_aggarwal_mansee"
 }
