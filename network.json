@@ -118,8 +118,11 @@
         },
         {
             "name": "map_murderColor.png"
+        },
+        {
+            "name": "map_population.png"
         }
     ],
-    "updated_at": "2018-10-17 23:52:00",
+    "updated_at": "2018-10-17 23:54:40",
     "url": "https://github.com/fall2018-wallace/hw7_aggarwal_mansee"
 }
