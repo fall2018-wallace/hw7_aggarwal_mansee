@@ -54,10 +54,16 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "mansee1",
             "desc": "",
-            "name": "add_area_center.R"
+            "name": "add_area_center.R",
+            "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "us_map.R"
         }
     ],
-    "updated_at": "2018-10-17 22:36:10",
+    "updated_at": "2018-10-17 22:57:25",
     "url": "https://github.com/fall2018-wallace/hw7_aggarwal_mansee"
 }
