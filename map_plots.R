@@ -20,6 +20,7 @@ zooMap_murderColor<-ggplot(df_final,aes(map_id=stateName)) +
   coord_map()+
   xlim(long_nyc-10,long_nyc+10)+
   ylim(lat_nyc-10,lat_nyc+10)
-  
+ 
+zooMap_populationv<-zooMap_murderColor +
   
  
