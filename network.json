@@ -164,8 +164,11 @@
             "desc": "",
             "name": "zoom.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "zooMap_murderColor.png"
         }
     ],
-    "updated_at": "2018-10-17 23:58:27",
+    "updated_at": "2018-10-18 02:19:05",
     "url": "https://github.com/fall2018-wallace/hw7_aggarwal_mansee"
 }
