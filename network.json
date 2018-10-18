@@ -141,12 +141,6 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "assigned_to": "mansee1",
-            "desc": "",
-            "name": "map_plots.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "map_areaColor.png"
         },
         {
@@ -190,8 +184,14 @@
             "desc": "fetching x and y coordinates of new york state",
             "name": "zoom.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "mansee1",
+            "desc": "plotting all the maps",
+            "name": "map_plots.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-18 05:26:39",
+    "updated_at": "2018-10-18 05:26:49",
     "url": "https://github.com/fall2018-wallace/hw7_aggarwal_mansee"
 }
