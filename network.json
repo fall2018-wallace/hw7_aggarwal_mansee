@@ -143,12 +143,6 @@
         {
             "assigned_to": "mansee1",
             "desc": "",
-            "name": "clean.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "mansee1",
-            "desc": "",
             "name": "merge.R",
             "task_status": "in progress"
         },
@@ -190,8 +184,14 @@
         },
         {
             "name": "zooMap_population.png"
+        },
+        {
+            "assigned_to": "mansee1",
+            "desc": "cleaning the dataset",
+            "name": "clean.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-18 02:26:58",
+    "updated_at": "2018-10-18 05:00:36",
     "url": "https://github.com/fall2018-wallace/hw7_aggarwal_mansee"
 }
