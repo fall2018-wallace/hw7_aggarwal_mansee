@@ -4,3 +4,5 @@ df_final$long<-ifelse(df_final$stateName==state.name,state.center[["x"]])
 df_final$lat<-ifelse(df_final$stateName==state.name,state.center[["y"]])
 
 str(df_final)
+
+df_final$stateName<-tolower(df_final$stateName)
