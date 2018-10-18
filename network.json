@@ -187,11 +187,11 @@
         },
         {
             "assigned_to": "mansee1",
-            "desc": "adding area and center of each state\r\n",
+            "desc": "adding area and center of each state to the dataset\r\n",
             "name": "add_area_center.R",
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-18 05:23:39",
+    "updated_at": "2018-10-18 05:25:52",
     "url": "https://github.com/fall2018-wallace/hw7_aggarwal_mansee"
 }
