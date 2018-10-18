@@ -13,6 +13,7 @@ map_murderColor<-ggplot(df_final,aes(map_id=stateName)) +
   expand_limits(x=df_final$long,y=df_final$lat) + 
   coord_map()
   
+#plotting color coded map based on Murder rate and population as circle per state
 map_population<-map_murderColor +
   geom_point(data=df_final,aes(x=long,y=lat,size=population))
   
