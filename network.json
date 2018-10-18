@@ -156,12 +156,6 @@
             "name": "map_population.png"
         },
         {
-            "assigned_to": "mansee1",
-            "desc": "",
-            "name": "zoom.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "zooMap_murderColor.png"
         },
         {
@@ -190,8 +184,14 @@
             "desc": "using map_data",
             "name": "us_map.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "mansee1",
+            "desc": "fetching x and y coordinates of new york state",
+            "name": "zoom.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-18 05:26:06",
+    "updated_at": "2018-10-18 05:26:39",
     "url": "https://github.com/fall2018-wallace/hw7_aggarwal_mansee"
 }
