@@ -114,6 +114,16 @@
             ],
             "source": "zoom.R",
             "target": "map_plots.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "zooMap_murderColor",
+                    "type": "png"
+                }
+            ],
+            "source": "map_plots.R",
+            "target": "zooMap_murderColor.png"
         }
     ],
     "nodes": [
@@ -169,6 +179,6 @@
             "name": "zooMap_murderColor.png"
         }
     ],
-    "updated_at": "2018-10-18 02:19:05",
+    "updated_at": "2018-10-18 02:19:26",
     "url": "https://github.com/fall2018-wallace/hw7_aggarwal_mansee"
 }
