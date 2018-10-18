@@ -141,36 +141,6 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "assigned_to": "mansee1",
-            "desc": "",
-            "name": "clean.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "mansee1",
-            "desc": "",
-            "name": "merge.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "mansee1",
-            "desc": "",
-            "name": "add_area_center.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "mansee1",
-            "desc": "",
-            "name": "us_map.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "mansee1",
-            "desc": "",
-            "name": "map_plots.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "map_areaColor.png"
         },
         {
@@ -180,18 +150,48 @@
             "name": "map_population.png"
         },
         {
-            "assigned_to": "mansee1",
-            "desc": "",
-            "name": "zoom.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "zooMap_murderColor.png"
         },
         {
             "name": "zooMap_population.png"
+        },
+        {
+            "assigned_to": "mansee1",
+            "desc": "cleaning the dataset",
+            "name": "clean.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "mansee1",
+            "desc": "merging USArrests and census dataset",
+            "name": "merge.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "mansee1",
+            "desc": "adding area and center of each state to the dataset\r\n",
+            "name": "add_area_center.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "mansee1",
+            "desc": "using map_data",
+            "name": "us_map.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "mansee1",
+            "desc": "fetching x and y coordinates of new york state",
+            "name": "zoom.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "mansee1",
+            "desc": "plotting all the maps",
+            "name": "map_plots.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-18 02:26:58",
+    "updated_at": "2018-10-18 05:26:49",
     "url": "https://github.com/fall2018-wallace/hw7_aggarwal_mansee"
 }
