@@ -1,0 +1,197 @@
+{
+    "collaborators": [
+        "mansee1"
+    ],
+    "created_at": "2018-10-17 21:16:34",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "scprc_est_2017_18_pop_res.csv",
+            "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "census",
+                    "output": "cleanCensus",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "merge.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df_final",
+                    "output": "df_merge",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "merge.R",
+            "target": "add_area_center.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df_final",
+                    "output": "df_final",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "add_area_center.R",
+            "target": "map_plots.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "us",
+                    "output": "us",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "us_map.R",
+            "target": "map_plots.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map_areaColor",
+                    "type": "png"
+                }
+            ],
+            "source": "map_plots.R",
+            "target": "map_areaColor.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map_murderColor",
+                    "type": "png"
+                }
+            ],
+            "source": "map_plots.R",
+            "target": "map_murderColor.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "map_population",
+                    "type": "png"
+                }
+            ],
+            "source": "map_plots.R",
+            "target": "map_population.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df_final",
+                    "output": "df_final",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "add_area_center.R",
+            "target": "zoom.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "long_nyc",
+                    "output": "long_nyc",
+                    "type": "r_obj"
+                },
+                {
+                    "input": "lat_nyc",
+                    "output": "lat_nyc",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "zoom.R",
+            "target": "map_plots.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "zooMap_murderColor",
+                    "type": "png"
+                }
+            ],
+            "source": "map_plots.R",
+            "target": "zooMap_murderColor.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "zooMap_population",
+                    "type": "png"
+                }
+            ],
+            "source": "map_plots.R",
+            "target": "zooMap_population.png"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "scprc_est_2017_18_pop_res.csv"
+        },
+        {
+            "assigned_to": "mansee1",
+            "desc": "",
+            "name": "clean.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "mansee1",
+            "desc": "",
+            "name": "merge.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "mansee1",
+            "desc": "",
+            "name": "add_area_center.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "mansee1",
+            "desc": "",
+            "name": "us_map.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "mansee1",
+            "desc": "",
+            "name": "map_plots.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "map_areaColor.png"
+        },
+        {
+            "name": "map_murderColor.png"
+        },
+        {
+            "name": "map_population.png"
+        },
+        {
+            "assigned_to": "mansee1",
+            "desc": "",
+            "name": "zoom.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "zooMap_murderColor.png"
+        },
+        {
+            "name": "zooMap_population.png"
+        }
+    ],
+    "updated_at": "2018-10-18 02:26:58",
+    "url": "https://github.com/fall2018-wallace/hw7_aggarwal_mansee"
+}
