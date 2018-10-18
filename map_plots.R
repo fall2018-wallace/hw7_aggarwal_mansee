@@ -20,7 +20,7 @@ zooMap_murderColor<-ggplot(df_final,aes(map_id=stateName)) +
   xlim(long_nyc-10,long_nyc+10)+
   ylim(lat_nyc-10,lat_nyc+10)
  
-zooMap_populationv<-zooMap_murderColor +
+zooMap_population<-zooMap_murderColor +
  geom_point(data=df_final,aes(x=long,y=lat,size=population))
   
  
