@@ -16,7 +16,6 @@ map_population<-map_murderColor +
   
 zooMap_murderColor<-ggplot(df_final,aes(map_id=stateName)) +
   geom_map(map=us,aes(fill=Murder)) +
-  expand_limits(x=df_final$long,y=df_final$lat) + 
   coord_map()+
   xlim(long_nyc-10,long_nyc+10)+
   ylim(lat_nyc-10,lat_nyc+10)
